@@ -1,5 +1,7 @@
 This program makes use of the Shutting yard algorithm.
 
+to install do pip install -e git+https://github.com/DBC201/equation-parser#egg=equation
+
 Example usage:
 
 from equation import Parser
