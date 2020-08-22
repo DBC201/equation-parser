@@ -2,7 +2,7 @@ class Stack:
     def __init__(self, inp=None):
         self.data = []
         if inp:
-            self.append(inp)
+            self.push(*inp)
 
     def push(self, data):
         self.data.append(data)
