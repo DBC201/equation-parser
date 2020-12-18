@@ -94,6 +94,8 @@ class Parser:
                     operator_stack.pop()
                 else:
                     raise RuntimeError("Mismatched parentheses!")
+            elif token == ' ':
+                pass # ignore spaces
             else:
                 raise RuntimeError(f"Undeclared variable: {token}")
             token_index += 1
